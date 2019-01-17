@@ -6,7 +6,7 @@
 # Copyright (C) 2019 yuqilin <yuqilin1228@gmail.com>
 #
 
-if [ ! -d ijkplayer-sdk/src/main/cpp/ijkmedia/ijksoundtouch ]; then
+if [ ! -d ijkplayer-sdk/src/main/cpp/ijkmedia/ijksoundtouch/.git ]; then
     git clone https://github.com/yuqilin/soundtouch.git ijkplayer-sdk/src/main/cpp/ijkmedia/ijksoundtouch
 fi
 
@@ -18,7 +18,7 @@ git checkout qmediaplayer-dev
 cd -
 
 
-if [ ! -d ijkplayer-sdk/src/main/cpp/ijkmedia/ijkyuv ]; then
+if [ ! -d ijkplayer-sdk/src/main/cpp/ijkmedia/ijkyuv/.git ]; then
     git clone https://github.com/yuqilin/libyuv.git ijkplayer-sdk/src/main/cpp/ijkmedia/ijkyuv
 fi
 
@@ -29,7 +29,7 @@ git checkout qmediaplayer-dev
 
 cd -
 
-if [ ! -d ijkplayer-sdk/src/main/cpp/android-ndk-profiler ]; then
+if [ ! -d ijkplayer-sdk/src/main/cpp/android-ndk-profiler/.git ]; then
     git clone https://github.com/yuqilin/android-ndk-profiler.git ijkplayer-sdk/src/main/cpp/android-ndk-profiler
 fi
 
